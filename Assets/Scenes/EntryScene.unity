@@ -291,8 +291,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 539264087}
-        m_TargetAssemblyTypeName: SceneManager, Assembly-CSharp
-        m_MethodName: StartGame
+        m_TargetAssemblyTypeName: SceneUpdater, Assembly-CSharp
+        m_MethodName: FirstGameStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -352,6 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2766e8031af6e41ab7f122409c39dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  names: []
 --- !u!1 &698605366
 GameObject:
   m_ObjectHideFlags: 0
