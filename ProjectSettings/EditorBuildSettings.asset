@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/EntryScene.unity
+    guid: ccb810decd8124849a3634e5fae5982e
+  - enabled: 1
+    path: Assets/Scenes/ChoosingScene.unity
+    guid: ffc4e1c6e34f33f4bb0a761bf31dd5be
+  - enabled: 1
+    path: Assets/Scenes/NamingForFour.unity
+    guid: 8bf48f87c1042ac409387199b1c2549d
+  - enabled: 1
+    path: Assets/Scenes/ShowingRolesForFour.unity
+    guid: 3dab694d9da1e6e4cafbea2578777153
+  - enabled: 1
+    path: Assets/Scenes/GameForFour.unity
+    guid: cc3fc84d869ba6a44adcf80f56115860
+  m_configObjects: {}
