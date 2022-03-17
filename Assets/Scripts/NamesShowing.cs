@@ -22,7 +22,7 @@ public class NamesShowing : MonoBehaviour
     {
         foreach (var button in requiredToShow)
         {
-            button.GetComponentInChildren<Text>().text = GameParams.PlayersList[requiredToShow.IndexOf(button)].NameGetter();
+            button.GetComponentInChildren<Text>().text = GameParams.PlayersList[requiredToShow.IndexOf(button)].Name;
         }
         mainButtonForShowing.SetActive(false);
     }
@@ -31,12 +31,12 @@ public class NamesShowing : MonoBehaviour
     {
         if (_count % 2 != 0)
         {
-            gameObject.GetComponentInChildren<Text>().text = GameParams.PlayersList[requiredToShow.IndexOf(gameObject)].RoleGetter();
+            gameObject.GetComponentInChildren<Text>().text = GameParams.PlayersList[requiredToShow.IndexOf(gameObject)].Role;
             _count++;
         }
         else
         {
-            gameObject.GetComponentInChildren<Text>().text = GameParams.PlayersList[requiredToShow.IndexOf(gameObject)].NameGetter();
+            gameObject.GetComponentInChildren<Text>().text = GameParams.PlayersList[requiredToShow.IndexOf(gameObject)].Name;
             _count++;
         }
     }

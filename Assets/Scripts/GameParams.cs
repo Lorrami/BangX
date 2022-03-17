@@ -9,31 +9,12 @@ public class GameParams : MonoBehaviour
     
     public struct PlayerParams
     {
-        private string _name;
-        private string _role;
+        public string Name { get; private set; }
+        public string Role { get; private set; }
         public PlayerParams(string name, string role)
         {
-            _name = name;
-            _role = role;
-        }
-
-        public void NameSetter(string name)
-        {
-            _name = name;
-        }
-        public void RoleSetter(string role)
-        {
-            _role = role;
-        }
-
-        public string NameGetter()
-        {
-            return _name;
-        }
-
-        public string RoleGetter()
-        {
-            return _role;
+            Name = name;
+            Role = role;
         }
     }
 }
